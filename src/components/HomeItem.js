@@ -11,21 +11,21 @@ class HomeItem extends Component {
         <h5 className="home__name">{desc}</h5>
         <div className="home__location">
           <Icon icon="icon-map-pin" />
+          <p>{location}</p>
         </div>
-        <p>{location}</p>
         <div className="home__rooms">
           <Icon icon="icon-profile-male" />
+          <p>{rooms}</p>
         </div>
-        <p>{rooms}</p>
         <div className="home__area">
           <Icon icon="icon-expand" />
+          <p>{size}</p>
         </div>
-        <p>{size}</p>
         <div className="home__price">
           <Icon icon="icon-key" />
+          <p>{price}</p>
         </div>
-        <p>{price}</p>
-        <button className="ctn">Contact realtor</button>
+        <button className="btn home__btn">Contact realtor</button>
       </div>
     );
   }
