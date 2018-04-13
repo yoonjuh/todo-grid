@@ -205,7 +205,10 @@ body {
 
 .gallery {
   background-color: #54483A;
-  grid-column: full-start / full-end; }
+  grid-column: full-start / full-end;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(7, 5vw); }
 
 .footer {
   background-color: #101d2c;
