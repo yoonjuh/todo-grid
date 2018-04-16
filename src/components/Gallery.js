@@ -13,6 +13,7 @@ import img10 from '../style/img/gal-10.jpeg';
 import img11 from '../style/img/gal-11.jpeg';
 import img12 from '../style/img/gal-12.jpeg';
 import img13 from '../style/img/gal-13.jpeg';
+import img14 from '../style/img/gal-14.jpeg';
 
 const Gallery = () => (
   <section className="gallery">
@@ -29,6 +30,7 @@ const Gallery = () => (
     <GalleryItem pic={img11} num={11} />
     <GalleryItem pic={img12} num={12} />
     <GalleryItem pic={img13} num={13} />
+    <GalleryItem pic={img14} num={14} />
   </section>
 );
 
